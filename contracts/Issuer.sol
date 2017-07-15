@@ -1,4 +1,4 @@
- pragma solidity ^0.4.11;
+ pragma solidity ^0.4.12;
 
 import './StandardToken.sol';
 import "zeppelin/contracts/ownership/Ownable.sol";

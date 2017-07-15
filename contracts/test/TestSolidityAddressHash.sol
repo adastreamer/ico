@@ -1,4 +1,4 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.12;
 
 /**
  * Test address hash behavior with left and right padded zeroes.
@@ -7,7 +7,7 @@ contract TestSolidityAddressHash {
 
   address public leftPad = 0x00b5557397B157a17fb1AbCa97a38e4646BEDb88;
 
-  // Solidity 0.4.11+ needs a valid address here
+  // Solidity 0.4.12+ needs a valid address here
   //address public rightPad = 00x88b5557397B157a17fb1AbCa97a38e4646BEDb00;
 
   function getHashLeftPad() public constant returns (bytes32) {
